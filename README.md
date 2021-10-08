@@ -5,8 +5,8 @@ this application is a simplified clone of trello
 
 ## technologies used
 
-1. axios - simplify fetching data by using async/await with axios
-2. react-router-dom - navigation between pages
+1. axios => simplify fetching data by using async/await with axios
+2. react-router-dom => navigation between pages
 
 ## how to start
 
@@ -29,11 +29,11 @@ the app mostly uses try/catch and async/await rather than .then/.catch to have a
 
 ### authorization
 
-1. private routes - app will redirect user to /login if the app doesn't have a user state
+1. private routes => app will redirect user to /login if the app doesn't have a user state
 
 ### authentication
 
-1. token - successful login gives us a token which will be used when requesting resources to the server. the token will then be attached to the request headers to authenticate users.
+1. token => successful login gives us a token which will be used when requesting resources to the server. the token will then be attached to the request headers to authenticate users.
 
 ### modals
 
@@ -45,7 +45,7 @@ the app mostly uses try/catch and async/await rather than .then/.catch to have a
 
 ### colors
 
-#### colors are defined in index.css file which can be accessed globally
+colors are defined in index.css file which can be accessed globally
 
 - --c-primary: rgb(47, 128, 237);
 - --c-primary-hover: rgb(39, 98, 177);
