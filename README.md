@@ -45,7 +45,7 @@ the app mostly uses try/catch and async/await rather than .then/.catch to have a
 
 ### colors
 
-colors are defined in index.css file which can be accessed globally
+colors are defined in :root{} at index.css file which can be accessed globally
 
 - --c-primary: rgb(47, 128, 237);
 - --c-primary-hover: rgb(39, 98, 177);
