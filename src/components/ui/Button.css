@@ -1,0 +1,47 @@
+.button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: var(--c-white);
+  background-color: var(--c-primary);
+  border-radius: 16px;
+  border: none;
+  transition: all ease 0.4s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.button i {
+  color: var(--c-white);
+}
+.button:hover {
+  background-color: var(--c-primary-hover);
+}
+.button:focus {
+  outline: none;
+}
+.button.secondary {
+  background-color: var(--c-secondary);
+}
+.button.secondary i {
+  
+}
+.button.secondary:hover {
+  background-color: var(--c-secondary-hover);
+}
+.button.disabled {
+  pointer-events: none;
+  background-color: var(--c-light);
+}
+.button.disabled:hover {
+  background-color: var(--c-light);
+}
+.button.text {
+  color: var(--c-secondary);
+  background-color: rgba(0, 0, 0, 0);
+}
+.button.text:hover {
+  color: var(--c-dark);
+  background-color: rgba(0, 0, 0, 0);
+}

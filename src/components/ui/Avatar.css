@@ -1,0 +1,15 @@
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 12px;
+  color: white;
+  background-color: var(--c-complement);
+  border: 2px solid var(--c-complement);
+}
+.avatar.admin {
+  border: 2px solid var(--c-secondary);
+}

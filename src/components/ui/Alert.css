@@ -1,0 +1,14 @@
+.alert {
+  padding: 1rem;
+  border-radius: 12px;
+  color: var(--c-white);
+  background-color: var(--c-primary);
+  font-size: 1rem;
+}
+.alert.error {
+  background-color: var(--c-error);
+}
+.alert.success {
+  background-color: var(--c-success);
+  color: var(--color-dark);
+}

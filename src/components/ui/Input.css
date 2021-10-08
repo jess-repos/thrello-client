@@ -1,0 +1,13 @@
+.input {
+  border-radius: 16px;
+  border: 2px solid var(--c-secondary);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+}
+.input:focus {
+  outline: 2px solid var(--c-primary);
+}
+.input.full-width {
+  width: 100%;
+}

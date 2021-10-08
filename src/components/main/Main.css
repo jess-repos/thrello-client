@@ -1,0 +1,27 @@
+.main {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 5rem;
+}
+.main-nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 2.5rem;
+}
+.main-nav span {
+  height: 2.5rem;
+  width: 2px;
+  background-color: var(--c-secondary);
+}
+.main .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .header .header-main {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
