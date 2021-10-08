@@ -33,7 +33,7 @@ the app mostly uses try/catch and async/await rather than .then/.catch to have a
 
 ### authentication
 
-2. token - successful login gives us a token which will be used when requesting resources to the server. the token will then be attached to the request headers to authenticate users.
+1. token - successful login gives us a token which will be used when requesting resources to the server. the token will then be attached to the request headers to authenticate users.
 
 ### modals
 
