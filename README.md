@@ -1,10 +1,10 @@
 # thrello-client
 
-client code for thrello app
-this application is a simplified clone of trello
-live link: https://nodemcthrello.netlify.app/
-trial username: test_user
-trial password: test_password
+**client code for thrello app**
+- this application is a simplified clone of trello
+- live link: https://nodemcthrello.netlify.app/
+- trial username: *test_user*
+- trial password: t*est_password*
 
 ## technologies used
 
@@ -48,7 +48,7 @@ the app mostly uses try/catch and async/await rather than .then/.catch to have a
 
 ### colors
 
-: colors are defined in :root{} at index.css file which can be accessed globally
+**colors are defined in :root{} at index.css file which can be accessed globally**
 
 ```
 :root {
