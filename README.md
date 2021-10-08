@@ -2,6 +2,9 @@
 
 client code for thrello app
 this application is a simplified clone of trello
+live link: https://nodemcthrello.netlify.app/
+trial username: test_user
+trial password: test_password
 
 ## technologies used
 
@@ -39,8 +42,8 @@ the app mostly uses try/catch and async/await rather than .then/.catch to have a
 
 1. add board modal
 
-- board title/name
-- board description
+- board title/name (required)
+- board description (optional)
 - board isPrivate (default = false)
 
 ### colors
