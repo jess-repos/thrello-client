@@ -11,8 +11,8 @@ this application is a simplified clone of trello
 ## how to start
 
 1. clone the repository by using either of the 2 methods
-   - git clone https://github.com/jess-repos/thrello-client.git
-   - download and extract zip file from https://github.com/jess-repos/thrello-client.git
+   a. git clone https://github.com/jess-repos/thrello-client.git
+   b. download and extract zip file from https://github.com/jess-repos/thrello-client.git
 2. npm install - this will install all the packages required by from the package.json file
 3. app is can be accessed on http://localhost:3000/
 
@@ -37,10 +37,10 @@ the app mostly uses try/catch and async/await rather than .then/.catch to have a
 
 ### modals
 
-- add board modal
-  -- board title/name
-  -- board description
-  -- board isPrivate (default = false)
+1. add board modal
+  - board title/name
+  - board description
+  - board isPrivate (default = false)
 
 ## RELATED
 
