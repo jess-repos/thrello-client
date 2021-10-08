@@ -47,20 +47,20 @@ the app mostly uses try/catch and async/await rather than .then/.catch to have a
 
 - colors are defined in index.css file which can be accessed globally
 
-:root {
---c-primary: rgb(47, 128, 237);
---c-primary-hover: rgb(39, 98, 177);
---c-complement: rgb(237, 156, 47);
---c-secondary: rgb(189, 189, 189);
---c-secondary-hover: rgb(143, 143, 143);
---c-error: rgb(235, 87, 87);
---c-success: rgb(144, 238, 144);
---c-dark: rgb(60, 60, 60);
---c-white: rgb(255, 255, 255);
---c-light: rgb(212, 212, 212);
---c-light-hover: rgb(196, 196, 196);
---c-backdrop: rgba(0, 0, 0, 0.5);
---c-transparent: rgba(0, 0, 0, 0);
+:root {\
+--c-primary: rgb(47, 128, 237);\
+--c-primary-hover: rgb(39, 98, 177);\
+--c-complement: rgb(237, 156, 47);\
+--c-secondary: rgb(189, 189, 189);\
+--c-secondary-hover: rgb(143, 143, 143);\
+--c-error: rgb(235, 87, 87);\
+--c-success: rgb(144, 238, 144);\
+--c-dark: rgb(60, 60, 60);\
+--c-white: rgb(255, 255, 255);\
+--c-light: rgb(212, 212, 212);\
+--c-light-hover: rgb(196, 196, 196);\
+--c-backdrop: rgba(0, 0, 0, 0.5);\
+--c-transparent: rgba(0, 0, 0, 0);\
 }
 
 ## RELATED
